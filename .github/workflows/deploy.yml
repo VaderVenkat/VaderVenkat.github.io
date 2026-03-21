@@ -7,14 +7,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
+
       - name: Publish
-        run: dotnet publish VenkatPortfolio.csproj -c Release -o release
+        run: dotnet publish -c Release -o release
+
+      - name: Add .nojekyll
+        run: touch release/wwwroot/.nojekyll
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
