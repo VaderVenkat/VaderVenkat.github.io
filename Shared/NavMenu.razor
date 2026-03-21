@@ -1,0 +1,70 @@
+@inject NavigationManager NavManager
+@implements IDisposable
+
+<nav class="navbar @(isScrolled ? "scrolled" : "")">
+    <div class="nav-container">
+        <a class="nav-brand" href="/">
+            <span class="brand-vk">V</span>
+            <span class="brand-dot" style="color: var(--accent);">.</span>
+        </a>
+
+        <button class="nav-toggle" @onclick="ToggleMenu">
+            <span class="@(menuOpen ? "open" : "")"></span>
+            <span class="@(menuOpen ? "open" : "")"></span>
+            <span class="@(menuOpen ? "open" : "")"></span>
+        </button>
+
+        <ul class="nav-links @(menuOpen ? "open" : "")">
+            <li><a href="/"        class="nav-link @(activePage == "home"     ? "active" : "")">Home</a></li>
+            <li><a href="/about"   class="nav-link @(activePage == "about"    ? "active" : "")">About</a></li>
+            <li><a href="/projects"class="nav-link @(activePage == "projects" ? "active" : "")">Projects</a></li>
+            <li><a href="/skills"  class="nav-link @(activePage == "skills"   ? "active" : "")">Skills</a></li>
+            <li><a href="/awards"  class="nav-link @(activePage == "awards"   ? "active" : "")">Awards</a></li>
+            <li><a href="/contact" class="nav-link @(activePage == "contact"  ? "active" : "")">Contact</a></li>
+            <li><a href="/resume"  class="nav-btn">Resume</a></li>
+        </ul>
+    </div>
+</nav>
+
+@code {
+    private bool menuOpen = false;
+    private bool isScrolled = false;
+    private string activePage = "home";
+
+    protected override void OnInitialized()
+    {
+        SetActivePage(NavManager.Uri);
+        NavManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, Microsoft.AspNetCore.Components.Routing.LocationChangedEventArgs e)
+    {
+        SetActivePage(e.Location);
+        menuOpen = false;
+        StateHasChanged();
+    }
+
+    private void SetActivePage(string uri)
+    {
+        var path = new Uri(uri).AbsolutePath.TrimEnd('/').ToLower();
+        activePage = path switch
+        {
+            ""          => "home",
+            "/"         => "home",
+            "/about"    => "about",
+            "/projects" => "projects",
+            "/skills"   => "skills",
+            "/awards"   => "awards",
+            "/contact"  => "contact",
+            "/resume"   => "resume",
+            _           => "home"
+        };
+    }
+
+    private void ToggleMenu() => menuOpen = !menuOpen;
+
+    public void Dispose()
+    {
+        NavManager.LocationChanged -= OnLocationChanged;
+    }
+}
