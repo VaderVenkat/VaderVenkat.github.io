@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tdEM+AIczRQ=",
+  "dgSpecHash": "sMJ0UWhWdmw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\venkateshan\\Downloads\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\VenkatPortfolio.csproj",
+  "projectFilePath": "C:\\Users\\venkateshan\\OneDrive\\Documents\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\VenkatPortfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\venkateshan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\venkateshan\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",

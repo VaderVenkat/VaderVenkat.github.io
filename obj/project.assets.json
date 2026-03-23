@@ -2037,11 +2037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\venkateshan\\Downloads\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\VenkatPortfolio.csproj",
+      "projectUniqueName": "C:\\Users\\venkateshan\\OneDrive\\Documents\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\VenkatPortfolio.csproj",
       "projectName": "VenkatPortfolio",
-      "projectPath": "C:\\Users\\venkateshan\\Downloads\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\VenkatPortfolio.csproj",
+      "projectPath": "C:\\Users\\venkateshan\\OneDrive\\Documents\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\VenkatPortfolio.csproj",
       "packagesPath": "C:\\Users\\venkateshan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\venkateshan\\Downloads\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\obj\\",
+      "outputPath": "C:\\Users\\venkateshan\\OneDrive\\Documents\\VenkatPortfolio_BlazorWASM\\VenkatPortfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
