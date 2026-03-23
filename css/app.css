@@ -47,7 +47,7 @@ ul { list-style: none; }
    ============================================================ */
 .page { display: flex; flex-direction: column; min-height: 100vh; }
 .main-content { flex: 1; padding-top: var(--nav-h); }
-.container { max-width: var(--max-w); margin: 0 auto; padding: 0 2rem; }
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 1.25rem; }
 .section { padding: 5rem 0; }
 .bg-light-section { background: var(--bg-alt); }
 
@@ -489,6 +489,8 @@ ul { list-style: none; }
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     transition: var(--transition);
+    width: 100%;
+    box-sizing: border-box;
 }
 .contact-method:hover { border-color: var(--accent); background: var(--accent-light); }
 .contact-method-icon {
@@ -505,7 +507,7 @@ ul { list-style: none; }
 }
 .contact-method-label { display: block; font-size: 0.75rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
 .contact-method-value { display: block; font-size: 0.9rem; font-weight: 500; color: var(--text-primary); }
-.contact-form-card { padding: 2.5rem; border: 1px solid var(--border); border-radius: var(--radius); }
+.contact-form-card { padding: 2.5rem; border: 1px solid var(--border); border-radius: var(--radius); width: 100%; }
 .contact-form-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 1.5rem; }
 .form-group { margin-bottom: 1.25rem; }
 .form-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--text-secondary); }
