@@ -1,4 +1,4 @@
-/* Manifest version: LJfo1TFK */
+/* Manifest version: hVyFznk2 */
 // Published Blazor service worker
 self.importScripts('./service-worker-assets.js');
 self.addEventListener('install', event => event.waitUntil(onInstall(event)));
