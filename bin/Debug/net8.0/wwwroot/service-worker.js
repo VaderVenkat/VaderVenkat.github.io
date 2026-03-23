@@ -1,3 +1,3 @@
-/* Manifest version: 2KN8u5w+ */
+/* Manifest version: ZIm1KCUe */
 // Blazor service worker
 self.addEventListener('fetch', () => { });

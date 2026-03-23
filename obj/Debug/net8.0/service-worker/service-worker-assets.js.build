@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "2KN8u5w+",
+  "version": "ZIm1KCUe",
   "assets": [
     {
       "hash": "sha256-j29bzsbGr0GXbz3saSOBqDtWxNOK08Or3b1HgnZ+pvA=",
@@ -754,11 +754,11 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-i9xz6tE0UvMA9/LhtkHldzsTW94vbWKb0+KZDZ9nZQA=",
+      "hash": "sha256-6rEHdUleN7hW19wXjz83nweuHyntFEle/edlvYZgwVw=",
       "url": "_framework/VenkatPortfolio.pdb"
     },
     {
-      "hash": "sha256-2lZdXMDq82LzW4ohsUtyV8qoAb6MWdgFClADnfQ1MFw=",
+      "hash": "sha256-je1K7jWAmvIdOSZ4sd1BfHoBY6lbvm/Bg1zB0fmwV9w=",
       "url": "_framework/VenkatPortfolio.wasm"
     },
     {
@@ -766,7 +766,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-mfZo/4VA9LqfLqqFF97lSIrsYPoSuUnjkA4AgKCOlOI=",
+      "hash": "sha256-+lKjM/26hn7/Ar1ERu63OI71L/SgsENlpwX1w1WOzho=",
       "url": "_framework/blazor.boot.json"
     },
     {

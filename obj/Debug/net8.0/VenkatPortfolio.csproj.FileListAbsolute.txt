@@ -2072,6 +2072,6 @@ C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfol
 C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\refint\VenkatPortfolio.dll
 C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\VenkatPortfolio.pdb
 C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\ref\VenkatPortfolio.dll
-C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\compressed\wajjlxl0lr-25rvyftpku.gz
-C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\compressed\4p0vx0hbt4-je02ax4f9i.gz
-C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\compressed\u19u5recoy-b7qnxxonc7.gz
+C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\compressed\wajjlxl0lr-l6iuem15yn.gz
+C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\compressed\4p0vx0hbt4-mxfxjscdd5.gz
+C:\Users\venkateshan\OneDrive\Documents\VenkatPortfolio_BlazorWASM\VenkatPortfolio\obj\Debug\net8.0\compressed\u19u5recoy-aj58rx0fmq.gz
