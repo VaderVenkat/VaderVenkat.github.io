@@ -641,3 +641,7 @@ ul { list-style: none; }
     .contact-form-card { padding: 1.5rem; }
     .resume-download-card { padding: 2rem 1.5rem; }
 }
+
+.exp-list { padding-left: 1.2rem; margin-top: 0.75rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.exp-list li { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; }
+
