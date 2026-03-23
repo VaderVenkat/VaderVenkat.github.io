@@ -383,15 +383,35 @@ ul { list-style: none; }
 .fact-item svg { color: var(--accent); flex-shrink: 0; }
 
 /* Education Timeline */
-.timeline { position: relative; padding-left: 2rem; }
-.timeline::before { content: ''; position: absolute; left: -1rem; top: 0; bottom: 0; width: 2px; background: var(--border); }
+.timeline { position: relative; padding-left: 28px; }
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px;       /* line center = 6 + 1 = 7px */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
 .timeline-item { position: relative; margin-bottom: 3rem; }
-.timeline-dot { position: absolute; left: -1.9rem; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); border: 3px solid var(--bg-alt); }
+
+.timeline-dot {
+  position: absolute;
+  left: -28px;     /* dot center = 28 - 28 + 7 = 7px ✓ same as line */
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg-alt);
+}
+
 .timeline-date { font-size: 0.78rem; font-weight: 600; color: var(--accent); letter-spacing: 0.5px; text-transform: uppercase; }
 .timeline-content h3 { font-size: 1.1rem; font-weight: 700; margin: 0.3rem 0; }
 .timeline-school { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem; }
 .timeline-content p { color: var(--text-secondary); font-size: 0.9rem; }
-
 /* Interests */
 .interests-grid { display: flex; flex-wrap: wrap; gap: 1rem; }
 .interest-item {

@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "uFAAesGg",
+  "version": "2KN8u5w+",
   "assets": [
     {
       "hash": "sha256-j29bzsbGr0GXbz3saSOBqDtWxNOK08Or3b1HgnZ+pvA=",
@@ -754,11 +754,11 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-7DZoemHKgT2cwUYlavluQu3zAGYTFuWyfjXiI3xyHoc=",
+      "hash": "sha256-i9xz6tE0UvMA9/LhtkHldzsTW94vbWKb0+KZDZ9nZQA=",
       "url": "_framework/VenkatPortfolio.pdb"
     },
     {
-      "hash": "sha256-rf2Xy3NUhhXNMjF3Zh4SxHb3C/poJu687HmkfRJNJQg=",
+      "hash": "sha256-2lZdXMDq82LzW4ohsUtyV8qoAb6MWdgFClADnfQ1MFw=",
       "url": "_framework/VenkatPortfolio.wasm"
     },
     {
@@ -766,7 +766,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-sqeqNb5ThsRx/oUFSINokHJiK1gmIUrxShH4PcUQSLA=",
+      "hash": "sha256-mfZo/4VA9LqfLqqFF97lSIrsYPoSuUnjkA4AgKCOlOI=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -822,7 +822,7 @@ self.assetsManifest = {
       "url": "_framework/netstandard.wasm"
     },
     {
-      "hash": "sha256-pUq3byCipoxQma/blEm7xyqiTFd5e3iNRlEo9meU8Rk=",
+      "hash": "sha256-8pCfk0bZA333hSvqT8s+Gk3Zv9ox5rB81LqCV+ktzg4=",
       "url": "css/app.css"
     },
     {

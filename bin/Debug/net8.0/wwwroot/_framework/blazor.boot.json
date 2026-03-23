@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "VenkatPortfolio",
   "resources": {
-    "hash": "sha256-2FQkbSBMpfG04tKu7Cz/M17V+BUvaneTZyp9uLZaDQE=",
+    "hash": "sha256-WnT6N3gDmPUsACjz+ZkdGtlVQ4GJYDNCgjDMemRywgA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-A16ka545FHaB+QXjyJ4exXh7XpBAAIFnX8YkC4xAng8="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-ovgR6YJeXMcsAhvGJVdyjhD5pU34EEAc0BGQYTUAyNk=",
       "netstandard.wasm": "sha256-90+pPOP/3NxK0buBFJlcvDw0r6Nk/i3+oM9dt2x+LPM=",
       "System.Private.CoreLib.wasm": "sha256-IXKG8p3ppN4zPjJOxht5wSXCcbFNPH6InVm7fsThBPI=",
-      "VenkatPortfolio.wasm": "sha256-rf2Xy3NUhhXNMjF3Zh4SxHb3C/poJu687HmkfRJNJQg="
+      "VenkatPortfolio.wasm": "sha256-2lZdXMDq82LzW4ohsUtyV8qoAb6MWdgFClADnfQ1MFw="
     },
     "pdb": {
-      "VenkatPortfolio.pdb": "sha256-7DZoemHKgT2cwUYlavluQu3zAGYTFuWyfjXiI3xyHoc="
+      "VenkatPortfolio.pdb": "sha256-i9xz6tE0UvMA9/LhtkHldzsTW94vbWKb0+KZDZ9nZQA="
     }
   },
   "cacheBootResources": true,
