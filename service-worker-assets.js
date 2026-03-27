@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "ak/VfOYG",
+  "version": "Hz2wkcaA",
   "assets": [
     {
       "hash": "sha256-svmq+EC2h+xpYUpeVfOL3mckD83o/gGL/u8Rp+sgHwY=",
@@ -90,11 +90,11 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Primitives.wasm"
     },
     {
-      "hash": "sha256-koEG6fZ2J5WM5sqBwan9VaZ4fMbUTzWhHut66egzUhc=",
+      "hash": "sha256-lB2U6/JsTYBawbILcQfV1zg3gL7ZcPXPHvXXakBWn3U=",
       "url": "_framework/System.Private.CoreLib.wasm"
     },
     {
-      "hash": "sha256-or38p/BwKG1YuL3g4cG48HN8yIOFTwm6J05MWXdTer4=",
+      "hash": "sha256-kuxocPNkfJti4C0AzNjrDXxrHqof7+hks9d+/eN1uIo=",
       "url": "_framework/System.Private.Uri.wasm"
     },
     {
@@ -102,7 +102,7 @@ self.assetsManifest = {
       "url": "_framework/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-+gZlTzNGeJqksK4mnVG/FxZ1NHiNZ54cp7x8G0MzCvY=",
+      "hash": "sha256-wQyQWa/0ApohSi0x4iBYiGS59WPnlXICdxM8x25KG7Q=",
       "url": "_framework/System.Runtime.wasm"
     },
     {
@@ -118,11 +118,11 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-EeMK8/zb07RpmSJW57FgKVIpWUskQw8GcYshopDh1oo=",
+      "hash": "sha256-CdUIvvV7oJrfvGwPUxQUg+YShCgDIUwDMs54oUXxuVE=",
       "url": "_framework/VenkatPortfolio.wasm"
     },
     {
-      "hash": "sha256-IWXLisogdrCIUCihuNfQfQ/1BhYmLe0+C4BsUG37qZ0=",
+      "hash": "sha256-NRdvilIL26J+imYIs1Ig/lx+qC88x33W4/dy74HD8ZU=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -158,7 +158,7 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-f5QevuLjiiP5tlbYXjvXcHxr7ywM06zlakjUYPnJ0rM=",
+      "hash": "sha256-XASG3rViu22t65chZNBfAZFJpmb+MUCH536Yl6KL0pY=",
       "url": "css/app.css"
     },
     {
@@ -178,7 +178,7 @@ self.assetsManifest = {
       "url": "images/war-of-worlds.png"
     },
     {
-      "hash": "sha256-i8j0GmEl29eDopOD6x1l5e8pRsLkPiKAnGFPFHe/b6A=",
+      "hash": "sha256-RH8i+n6lyWdrZsbOTNGt/b8w8EU1jvphUV/jdSDc/lI=",
       "url": "index.html"
     },
     {
