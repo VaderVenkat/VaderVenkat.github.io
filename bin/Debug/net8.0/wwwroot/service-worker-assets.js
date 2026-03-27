@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "Vy2NcoGf",
+  "version": "mP4W3uWE",
   "assets": [
     {
       "hash": "sha256-j29bzsbGr0GXbz3saSOBqDtWxNOK08Or3b1HgnZ+pvA=",
@@ -754,11 +754,11 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-i8lcS5skWexoKwusLng10zk0XNn3wy361123hZggX7A=",
+      "hash": "sha256-MAcBFBpGlmf0UR/+9r5al2nXXcCEmBN5TN6km365r4w=",
       "url": "_framework/VenkatPortfolio.pdb"
     },
     {
-      "hash": "sha256-wkcL9KtQ93gtW1BoAjzboA66KvDR1pKtaopKAOPyJ8k=",
+      "hash": "sha256-yko8RhGJpQyOACS0gMckiWROmEbb8M0lXxhUHFEgz7g=",
       "url": "_framework/VenkatPortfolio.wasm"
     },
     {
@@ -766,7 +766,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-inucJEGIEtCQm24cGbEOWahxCa0AbQlsTkm8/sKqd8E=",
+      "hash": "sha256-+4YP0XUUSdW3AQpHxnPqDI3s0iWpeLzDjOwJWPHEYJM=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -822,7 +822,7 @@ self.assetsManifest = {
       "url": "_framework/netstandard.wasm"
     },
     {
-      "hash": "sha256-f5QevuLjiiP5tlbYXjvXcHxr7ywM06zlakjUYPnJ0rM=",
+      "hash": "sha256-XASG3rViu22t65chZNBfAZFJpmb+MUCH536Yl6KL0pY=",
       "url": "css/app.css"
     },
     {
@@ -842,7 +842,7 @@ self.assetsManifest = {
       "url": "images/war-of-worlds.png"
     },
     {
-      "hash": "sha256-i8j0GmEl29eDopOD6x1l5e8pRsLkPiKAnGFPFHe/b6A=",
+      "hash": "sha256-RH8i+n6lyWdrZsbOTNGt/b8w8EU1jvphUV/jdSDc/lI=",
       "url": "index.html"
     },
     {

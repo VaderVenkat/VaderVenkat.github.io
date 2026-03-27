@@ -13,8 +13,68 @@
 <section class="section">
     <div class="container">
 
-        <!-- Project 1: War of the Worlds -->
-        <div class="project-detail-card">
+
+        <!-- Project 2: Pandora -->
+        <div class="project-detail-card" id="pandora">
+            <div class="project-detail-img">
+                <img src="images/pandora.png" alt="Pandora Screenshot" />
+                <div class="project-platform-tags">
+                    <span class="platform-tag">Console</span>
+                    <span class="platform-tag">PC</span>
+                </div>
+            </div>
+            <div class="project-detail-info">
+                <div class="project-header">
+                    <div>
+                        <span class="project-num">02</span>
+                        <h2 class="project-name">Pandora</h2>
+                        <span class="project-date">Jul 2025 – Aug 2025</span>
+                    </div>
+                    <a href="https://vadervenkat.itch.io/pandora" target="_blank" class="btn-outline">
+                        Play on Itch.io ↗
+                    </a>
+                </div>
+                <p class="project-description">
+                    Developed as part of my learning journey in Unity to strengthen core game development skills.
+                    Pandora focuses on creating a unique gameplay experience while building custom technical systems
+                    without relying on Unity's built-in AI tools — demonstrating deeper programming capability.
+                </p>
+                <div class="project-highlights">
+                    <h4>Key Highlights</h4>
+                    <ul class="highlight-list">
+                        <li>
+                            <span class="highlight-dot"></span>
+                            Designed enemy behavior without Unity AI NavMesh — built custom chase logic from scratch
+                        </li>
+                        <li>
+                            <span class="highlight-dot"></span>
+                            Created a camera control system with input support for both keyboard and controller
+                        </li>
+                        <li>
+                            <span class="highlight-dot"></span>
+                            Built a custom input system for smooth player control and gameplay flexibility
+                        </li>
+                        <li>
+                            <span class="highlight-dot"></span>
+                            Modeled 3D trees and applied textures to enrich the game environment
+                        </li>
+                    </ul>
+                </div>
+                <div class="tech-stack-used">
+                    <span class="tech-chip">C#</span>
+                    <span class="tech-chip">Unity 3D</span>
+                    <span class="tech-chip">Unity API</span>
+                    <span class="tech-chip">Unity UI</span>
+                    <span class="tech-chip">Custom AI Logic</span>
+                    <span class="tech-chip">3D Modeling</span>
+                </div>
+            </div>
+        </div>
+
+             <div class="project-divider"></div>
+
+                <!-- Project 1: War of the Worlds -->
+        <div class="project-detail-card reverse" id="war-of-worlds">
             <div class="project-detail-img">
                 <img src="images/war-of-worlds.png" alt="War of the Worlds Screenshot" />
                 <div class="project-platform-tags">
@@ -77,64 +137,24 @@
             </div>
         </div>
 
-        <div class="project-divider"></div>
-
-        <!-- Project 2: Pandora -->
-        <div class="project-detail-card reverse" id="pandora">
-            <div class="project-detail-img">
-                <img src="images/pandora.png" alt="Pandora Screenshot" />
-                <div class="project-platform-tags">
-                    <span class="platform-tag">Console</span>
-                    <span class="platform-tag">PC</span>
-                </div>
-            </div>
-            <div class="project-detail-info">
-                <div class="project-header">
-                    <div>
-                        <span class="project-num">02</span>
-                        <h2 class="project-name">Pandora</h2>
-                        <span class="project-date">Jul 2025 – Aug 2025</span>
-                    </div>
-                    <a href="https://vadervenkat.itch.io/pandora" target="_blank" class="btn-outline">
-                        Play on Itch.io ↗
-                    </a>
-                </div>
-                <p class="project-description">
-                    Developed as part of my learning journey in Unity to strengthen core game development skills.
-                    Pandora focuses on creating a unique gameplay experience while building custom technical systems
-                    without relying on Unity's built-in AI tools — demonstrating deeper programming capability.
-                </p>
-                <div class="project-highlights">
-                    <h4>Key Highlights</h4>
-                    <ul class="highlight-list">
-                        <li>
-                            <span class="highlight-dot"></span>
-                            Designed enemy behavior without Unity AI NavMesh — built custom chase logic from scratch
-                        </li>
-                        <li>
-                            <span class="highlight-dot"></span>
-                            Created a camera control system with input support for both keyboard and controller
-                        </li>
-                        <li>
-                            <span class="highlight-dot"></span>
-                            Built a custom input system for smooth player control and gameplay flexibility
-                        </li>
-                        <li>
-                            <span class="highlight-dot"></span>
-                            Modeled 3D trees and applied textures to enrich the game environment
-                        </li>
-                    </ul>
-                </div>
-                <div class="tech-stack-used">
-                    <span class="tech-chip">C#</span>
-                    <span class="tech-chip">Unity 3D</span>
-                    <span class="tech-chip">Unity API</span>
-                    <span class="tech-chip">Unity UI</span>
-                    <span class="tech-chip">Custom AI Logic</span>
-                    <span class="tech-chip">3D Modeling</span>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
+
+@inject IJSRuntime JS
+@inject NavigationManager NavManager
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var uri = new Uri(NavManager.Uri);
+            var fragment = uri.Fragment;
+            if (!string.IsNullOrEmpty(fragment))
+            {
+                await Task.Delay(100);
+                await JS.InvokeVoidAsync("scrollToElement", fragment.TrimStart('#'));
+            }
+        }
+    }
+}
