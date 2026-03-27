@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VenkatPortfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f63f8d03f9c9a6ad6a6ff62ad1d5f449e534ac6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+096ec03e76f8758c6aae1625499d334aff936c18")]
 [assembly: System.Reflection.AssemblyProductAttribute("VenkatPortfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VenkatPortfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
